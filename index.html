@@ -136,12 +136,11 @@
     
             function login() {
 
-                window.location.href = "menu.html";
-
-                //if(username.value == "test" && password.value == "test") {
-                //    form.style.display = "none";
-                //    welcome.style.display = "block";
-                //}
+                if(username.value == "findrobyn@gmail.com" && password.value == "archivesplease" || username.value == "otakou.lane@gmail.com" && password.value == "archivesplease") {
+                    window.location.href = "menu.html";
+                } else {
+                    alert ("Incorrect username or password.")
+                }
             }
     
         </script>
